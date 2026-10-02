@@ -89,20 +89,30 @@ def chat(base: str, api_key: str, model: str, system: str, user: str) -> str:
         headers = {"Content-Type": "application/json",
                    "x-api-key": api_key,
                    "anthropic-version": "2023-06-01"}
-        payload = {"model": model, "max_tokens": 4096, "temperature": 0.3,
+        payload = {"model": model, "max_tokens": 8192, "temperature": 0.3,
                    "system": system,
-                   "messages": [{"role": "user", "content": user}]}
+                   "messages": [{"role": "user", "content": user}],
+                   "thinking": {"type": "disabled"}}  # 推理模型：优先关闭思考，直接出正文
     else:  # OpenAI 兼容（含智谱 /api/paas/v4、OpenAI 官方等）
         url = f"{base}/chat/completions"
         headers = {"Content-Type": "application/json",
                    "Authorization": f"Bearer {api_key}"}
-        payload = {"model": model, "temperature": 0.3, "max_tokens": 4096,
+        payload = {"model": model, "temperature": 0.3, "max_tokens": 8192,
                    "messages": [{"role": "system", "content": system},
                                 {"role": "user", "content": user}]}
 
-    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
-                                 headers=headers)
-    with urllib.request.urlopen(req, timeout=300) as resp:
+    def send():
+        return urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
+                                      headers=headers)
+    try:
+        resp = urllib.request.urlopen(send(), timeout=300)
+    except urllib.error.HTTPError as e:
+        if "thinking" in payload and 400 <= e.code < 500:
+            payload.pop("thinking")  # 端点不支持关闭思考：退回默认行为
+            resp = urllib.request.urlopen(send(), timeout=300)
+        else:
+            raise
+    with resp:
         data = json.loads(resp.read().decode("utf-8"))
 
     if "choices" in data:  # OpenAI 结构
