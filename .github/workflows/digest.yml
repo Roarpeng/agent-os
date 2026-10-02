@@ -1,0 +1,49 @@
+name: digest
+
+on:
+  schedule:
+    - cron: "30 1 * * *"   # UTC 01:30 = 北京时间 09:30
+  workflow_dispatch: {}
+
+concurrency:
+  group: digest
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-distill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 抓取最新动态
+        run: python pipeline/fetch_digest.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: LLM 提炼（可选，未配密钥则自动跳过）
+        run: python pipeline/distill.py
+        continue-on-error: true
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+
+      - name: 提交并推送
+        run: |
+          git config user.name  "agent-os-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/inbox pipeline/state.json
+          if git diff --cached --quiet; then
+            echo "无新内容，跳过提交。"
+          else
+            git commit -m "digest: $(date -u +%F) 自动抓取大佬动态"
+            git push
+          fi
