@@ -1,10 +1,19 @@
 {
   "sources": [
-    { "type": "rss",    "name": "Karpathy 博客",      "url": "https://karpathy.github.io/feed.xml" },
-    { "type": "rss",    "name": "Simon Willison",     "url": "https://simonwillison.net/atom/everything/" },
-    { "type": "rss",    "name": "Lilian Weng",        "url": "https://lilianweng.github.io/index.xml" },
-    { "type": "rss",    "name": "Armin Ronacher",     "url": "https://lucumr.pocoo.org/feed.atom" },
-    { "type": "hn",     "name": "HN 提及 Karpathy",   "query": "Karpathy" },
-    { "type": "github", "name": "karpathy GitHub 动态", "user": "karpathy" }
+    { "type": "rss",    "name": "Karpathy 博客",        "url": "https://karpathy.github.io/feed.xml" },
+    { "type": "rss",    "name": "Simon Willison",       "url": "https://simonwillison.net/atom/everything/" },
+    { "type": "rss",    "name": "Lilian Weng",          "url": "https://lilianweng.github.io/index.xml" },
+    { "type": "rss",    "name": "Armin Ronacher",       "url": "https://lucumr.pocoo.org/feed.atom" },
+    { "type": "rss",    "name": "Hamel Husain",         "url": "https://hamel.dev/index.xml" },
+    { "type": "rss",    "name": "Eugene Yan",           "url": "https://eugeneyan.com/rss/" },
+    { "type": "rss",    "name": "Latent Space (swyx)",  "url": "https://www.latent.space/feed" },
+    { "type": "rss",    "name": "Sebastian Raschka",    "url": "https://magazine.sebastianraschka.com/feed" },
+    { "type": "rss",    "name": "Chip Huyen",           "url": "https://huyenchip.com/feed.xml" },
+    { "type": "rss",    "name": "Interconnects (Nathan Lambert)", "url": "https://www.interconnects.ai/feed" },
+    { "type": "rss",    "name": "宝玉 (中文 AI 实践)",  "url": "https://baoyu.io/feed.xml" },
+    { "type": "rss",    "name": "Mitchell Hashimoto",   "url": "http://mitchellhashimoto.com/feed.xml" },
+    { "type": "hn",     "name": "HN 提及 Karpathy",     "query": "Karpathy" },
+    { "type": "github", "name": "karpathy GitHub 动态", "user": "karpathy" },
+    { "type": "github", "name": "simonw GitHub 动态",   "user": "simonw" }
   ]
 }

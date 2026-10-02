@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.1 · 2026-10-02
+
+灵感源扩充 6 → 15（"让大佬的思想自动流进来"不限于 Karpathy）：
+
+- 新增博客 ×8：Hamel Husain（评测）、Eugene Yan（应用 LLM 系统）、Latent Space/swyx（AI 工程）、Sebastian Raschka（LLM 原理）、Chip Huyen（ML 系统）、Interconnects/Nathan Lambert（研究趋势）、宝玉（中文 AI 实践）、Mitchell Hashimoto（Agent 编码实践）。
+- 新增 GitHub 动态 ×1：simonw（工具发布）。
+- 全部源经可达性验证（200）；失效源运行时自动跳过不影响其他源。
+
 ## v1.3.0 · 2026-10-02
 
 公开发布：

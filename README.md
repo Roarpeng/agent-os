@@ -74,7 +74,7 @@ bash sync.sh         # 部署到 ~/.zcode/ 与 ~/.cursor/
 
 Fork 或推到你自己的 GitHub 仓库后：
 
-1. 编辑 `pipeline/sources.json`——声明你想追随的人（rss 博客 / hn 关键词 / github 用户三类，增删自由）。
+1. 编辑 `pipeline/sources.json`——声明你想追随的人（rss 博客 / hn 关键词 / github 用户三类，增删自由）。默认已内置 15 个源：Karpathy、Simon Willison、Lilian Weng、Armin Ronacher、Hamel Husain、Eugene Yan、swyx（Latent Space）、Sebastian Raschka、Chip Huyen、Nathan Lambert（Interconnects）、宝玉、Mitchell Hashimoto 的博客，HN 提及 Karpathy，karpathy 与 simonw 的 GitHub 动态——覆盖 Agent 方法论、LLM 工程、评测、研究趋势与中文实践。
 2. 仓库 **Settings → Secrets and variables → Actions** 添加 `LLM_API_KEY`（可选，启用自动提炼）：
    - 智谱 GLM：`LLM_BASE_URL=https://open.bigmodel.cn/api/anthropic`（或 `/api/paas/v4`）、`LLM_MODEL=glm-5.3-flash`
    - OpenAI 兼容接口：只配 `LLM_API_KEY` 即可（默认 `gpt-4o-mini`）
