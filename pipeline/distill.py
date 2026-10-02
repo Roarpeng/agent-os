@@ -102,7 +102,7 @@ def chat(base: str, api_key: str, model: str, system: str, user: str) -> str:
 
     req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
                                  headers=headers)
-    with urllib.request.urlopen(req, timeout=120) as resp:
+    with urllib.request.urlopen(req, timeout=300) as resp:
         data = json.loads(resp.read().decode("utf-8"))
 
     if "choices" in data:  # OpenAI 结构
