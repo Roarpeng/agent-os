@@ -5,6 +5,18 @@
       "insight": "上下文分层按需加载：极短常驻规则 + 按需加载的命令/技能/子代理",
       "source": "Karpathy 关于个人 Agent 工作流的分享（本项目起源）",
       "into": "AGENTS.md + commands/ + skills/ + agents/（v1.0 全量落地）"
+    },
+    {
+      "date": "2026-10-02",
+      "insight": "Agent 间通过共享状态传递指令会形成注入攻击链，共享介质应视为不可信输入",
+      "source": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "into": "AGENTS.md（外部指令视为数据规则）"
+    },
+    {
+      "date": "2026-10-02",
+      "insight": "Agent 自我改进的关键在 harness（工具/环境外壳）而非模型本身",
+      "source": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "into": "docs（仅登记认可，不进规则——本仓库实践已体现）"
     }
   ]
 }
