@@ -89,14 +89,14 @@ def chat(base: str, api_key: str, model: str, system: str, user: str) -> str:
         headers = {"Content-Type": "application/json",
                    "x-api-key": api_key,
                    "anthropic-version": "2023-06-01"}
-        payload = {"model": model, "max_tokens": 1500, "temperature": 0.3,
+        payload = {"model": model, "max_tokens": 4096, "temperature": 0.3,
                    "system": system,
                    "messages": [{"role": "user", "content": user}]}
     else:  # OpenAI 兼容（含智谱 /api/paas/v4、OpenAI 官方等）
         url = f"{base}/chat/completions"
         headers = {"Content-Type": "application/json",
                    "Authorization": f"Bearer {api_key}"}
-        payload = {"model": model, "temperature": 0.3, "max_tokens": 1500,
+        payload = {"model": model, "temperature": 0.3, "max_tokens": 4096,
                    "messages": [{"role": "system", "content": system},
                                 {"role": "user", "content": user}]}
 
@@ -106,10 +106,14 @@ def chat(base: str, api_key: str, model: str, system: str, user: str) -> str:
         data = json.loads(resp.read().decode("utf-8"))
 
     if "choices" in data:  # OpenAI 结构
-        return (data["choices"][0]["message"]["content"] or "").strip()
-    # Anthropic 结构：content 是块数组
-    return "".join(b.get("text", "") for b in data.get("content", [])
-                   if b.get("type") == "text").strip()
+        text = (data["choices"][0]["message"]["content"] or "").strip()
+    else:  # Anthropic 结构：content 是块数组
+        text = "".join(b.get("text", "") for b in data.get("content", [])
+                       if b.get("type") == "text").strip()
+    if not text:  # 诊断：打印响应结构，便于定位协议/参数问题
+        print("!! 响应无文本，结构片段: " +
+              json.dumps(data, ensure_ascii=False)[:600])
+    return text
 
 
 def main() -> int:
