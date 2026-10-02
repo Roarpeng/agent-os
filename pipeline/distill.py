@@ -81,6 +81,37 @@ def build_manifest() -> str:
     return "\n\n".join(parts)[:MAX_MANIFEST_CHARS]
 
 
+def chat(base: str, api_key: str, model: str, system: str, user: str) -> str:
+    """按 base URL 自动适配协议：智谱同时提供 OpenAI 兼容(/api/paas/v4)
+    和 Anthropic 兼容(/api/anthropic)两种端点，请求与响应结构不同。"""
+    if "/api/anthropic" in base:
+        url = f"{base}/v1/messages"
+        headers = {"Content-Type": "application/json",
+                   "x-api-key": api_key,
+                   "anthropic-version": "2023-06-01"}
+        payload = {"model": model, "max_tokens": 1500, "temperature": 0.3,
+                   "system": system,
+                   "messages": [{"role": "user", "content": user}]}
+    else:  # OpenAI 兼容（含智谱 /api/paas/v4、OpenAI 官方等）
+        url = f"{base}/chat/completions"
+        headers = {"Content-Type": "application/json",
+                   "Authorization": f"Bearer {api_key}"}
+        payload = {"model": model, "temperature": 0.3, "max_tokens": 1500,
+                   "messages": [{"role": "system", "content": system},
+                                {"role": "user", "content": user}]}
+
+    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"),
+                                 headers=headers)
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+
+    if "choices" in data:  # OpenAI 结构
+        return (data["choices"][0]["message"]["content"] or "").strip()
+    # Anthropic 结构：content 是块数组
+    return "".join(b.get("text", "") for b in data.get("content", [])
+                   if b.get("type") == "text").strip()
+
+
 def main() -> int:
     api_key = (os.environ.get("LLM_API_KEY") or "").strip()
     if not api_key:
@@ -103,24 +134,7 @@ def main() -> int:
     user_content = (f"【系统现状清单】\n{manifest}\n\n"
                     f"【今日 digest】\n{text[:MAX_DIGEST_CHARS]}")
 
-    payload = json.dumps({
-        "model": model,
-        "temperature": 0.3,
-        "max_tokens": 1500,
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_content},
-        ],
-    }).encode("utf-8")
-    req = urllib.request.Request(
-        f"{base}/chat/completions",
-        data=payload,
-        headers={"Content-Type": "application/json",
-                 "Authorization": f"Bearer {api_key}"},
-    )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    content = (data["choices"][0]["message"]["content"] or "").strip()
+    content = chat(base, api_key, model, SYSTEM_PROMPT, user_content)
     if not content:
         print("模型返回空内容，跳过。")
         return 0
