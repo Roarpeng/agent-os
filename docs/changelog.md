@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.0 · 2026-10-02
+
+公开发布：
+
+- README 重写为公开版：架构总览、Mermaid 管道图、通用快速开始、双工具部署映射、已知注意点。
+- 新增 MIT License。
+- 仓库转为 public，配置 description 与 topics。
+
 ## v1.2.1 · 2026-10-02
 
 首次 `/inbox` 沉淀（来源：docs/inbox/2026-10-02.md 候选洞察）：
