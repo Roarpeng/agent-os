@@ -1,0 +1,6 @@
+# 跨平台一致性：脚本文件在仓库内恒为 LF
+*.sh  text eol=lf
+*.py  text eol=lf
+*.yml text eol=lf
+*.md  text
+*.json text
