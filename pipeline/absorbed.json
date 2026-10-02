@@ -1,0 +1,10 @@
+{
+  "absorbed": [
+    {
+      "date": "2026-10-02",
+      "insight": "上下文分层按需加载：极短常驻规则 + 按需加载的命令/技能/子代理",
+      "source": "Karpathy 关于个人 Agent 工作流的分享（本项目起源）",
+      "into": "AGENTS.md + commands/ + skills/ + agents/（v1.0 全量落地）"
+    }
+  ]
+}

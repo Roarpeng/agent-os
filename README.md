@@ -62,7 +62,9 @@ gh workflow run digest     # 手动触发一次（首次部署后建议跑一次
 
 - **来源配置**：编辑 `pipeline/sources.json`——`rss`（博客）/ `hn`（Hacker News 关键词）/ `github`（用户动态）三类，增删自由。
 - **LLM 提炼（可选）**：仓库 Settings → Secrets and variables → Actions 添加 `LLM_API_KEY`（OpenAI 兼容接口）。用智谱 GLM 则同时设置 `LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4`、`LLM_MODEL=glm-4-flash`（免费）。不配置则只有原始 digest，`/inbox` 仍可工作。
-- **沉淀门槛**：自动管道只采集和提炼，**永不直接修改** AGENTS.md / commands / skills；沉淀必须经 `/inbox` 提炼 + 人工确认（见 ADR-0002）。
+- **内容级过滤（已接入的想法不再打扰）**：`distill.py` 每次运行时从文件**动态构建**"系统现状清单"（AGENTS.md 全文 + 全部命令/技能/子代理描述 + `pipeline/absorbed.json` 历史已吸收洞察），LLM 对照清单判断等价性——已接入的想法（含换了出处的同一想法）归入"已覆盖（过滤）"节，不进入候选。未配 LLM key 时，同样的过滤由本地 `/inbox` 执行。
+- **吸收闭环**：`/inbox` 确认沉淀后把洞察登记进 `pipeline/absorbed.json` → 下次过滤自动生效。新增/修改任何规则或技能后，清单自动跟上，无需维护关键词表。
+- **沉淀门槛**：自动管道只采集和提炼，**永不直接修改** AGENTS.md / commands / skills；沉淀必须经 `/inbox` 提炼 + 人工确认（见 ADR-0002、ADR-0003）。
 
 ## 设计与迭代
 

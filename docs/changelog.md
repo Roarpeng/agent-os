@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.2.0 · 2026-10-02
+
+已接入内容的自动过滤（吸收闭环）：
+
+- `pipeline/distill.py`：运行时动态构建"系统现状清单"（AGENTS.md + 命令/技能/子代理 description + absorbed.json），提炼时把已接入的等价想法归入"已覆盖（过滤）"，跨出处也拦截。
+- `pipeline/absorbed.json`：已吸收洞察登记簿；`/inbox` 确认沉淀后写入，供下次过滤。
+- `commands/inbox.md`：升级为"过滤 → 提炼 → 确认 → 登记 → commit"闭环。
+- 设计决策见 [decisions/0003](decisions/0003-content-level-filtering.md)。
+
 ## v1.1.0 · 2026-10-02
 
 自动灵感管道（让大佬的思想自动流进仓库，自动采集 + 人工沉淀）：
