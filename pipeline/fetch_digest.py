@@ -143,6 +143,7 @@ def main() -> int:
 
     sections: list[tuple[str, list[dict]]] = []
     total_new = 0
+    state_dirty = False
 
     for src in sources:
         key = (f"{src['type']}:" +
@@ -165,13 +166,17 @@ def main() -> int:
         fresh = [e for e in fetched if e["id"] not in known][:MAX_PER_SOURCE]
         if fetched:
             merged = list(dict.fromkeys(known_list + [e["id"] for e in fetched]))
-            seen[key] = merged[-SEEN_CAP:]
+            if merged != known_list:
+                seen[key] = merged[-SEEN_CAP:]
+                state_dirty = True
         if fresh:
             sections.append((src.get("name", key), fresh))
             total_new += len(fresh)
 
-    state["last_run"] = datetime.now().isoformat(timespec="seconds")
-    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    # 只有真正记住了新条目才写状态：避免每天产生仅时间戳变化的空提交
+    if state_dirty:
+        STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2),
+                              encoding="utf-8")
 
     if not total_new:
         print("无新内容，未生成 digest。")
