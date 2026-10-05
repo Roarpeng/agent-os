@@ -1,7 +1,8 @@
-# Agent OS · ZCode × Cursor
+# Agent OS
 
 > **一套低 Token、可维护、可迁移的个人 Agent 工作系统——让别人的思想自动为你工作。**
 > Personal Agent OS: minimal always-on rules, layered on-demand context, and an automated idea-intake pipeline.
+> Works with any agent tool: ZCode / Cursor / Claude Code / Codex / Gemini CLI / opencode / …
 
 灵感来自 [Andrej Karpathy](https://karpathy.bearblog.dev/) 关于个人 Agent 工作流的分享。核心理念只有一句话：
 
@@ -21,7 +22,7 @@ Understand → Choose Medium → Plan → Execute → Verify → Deliver
 | Subagents | 3 个角色 | 主 Agent 调度 | researcher（只读研究）/ reviewer（只读审查）/ architect（只设计不改码） |
 | 灵感管道 | GitHub Actions | 每日定时全自动 | 抓取大佬动态 → LLM 提炼 + 已接入内容过滤 → 人工裁决沉淀 |
 
-设计约束：**复杂内容一律下沉，不进 AGENTS.md**——每条常驻规则的持续成本是之后每次会话都为它付 Token。
+设计约束：**复杂内容一律下沉，不进 AGENTS.md**——每条常驻规则的持续成本是之后每次会话都为它付 Token。内容层全部是通用 Markdown（`AGENTS.md` / 命令 / `SKILL.md` / 子代理提示词），不依赖任何特制工具或私有格式，所以任何 Agent 工具都能用。
 
 ## 灵感管道：让大佬的思想自动流进你的系统
 
@@ -39,7 +40,7 @@ flowchart TB
     I -- "确认后才沉淀" --> R["AGENTS.md / Commands /<br/>Skills / Subagents"]
     R --> A[("absorbed.json<br/>已吸收洞察登记簿")]
     A -. 作为过滤依据反馈 .-> L
-    R --> Z["ZCode"] & C["Cursor"]
+    R --> T["本机任意 Agent 工具<br/>（经 sync.sh 部署）"]
 ```
 
 三条铁律（详见 [ADR-0002](docs/decisions/0002-auto-thought-intake.md)、[ADR-0003](docs/decisions/0003-content-level-filtering.md)）：
@@ -50,25 +51,40 @@ flowchart TB
 
 ## 快速开始
 
-### 1. 部署规则到你的 Agent 工具
+### 1. 安装
 
-```bash
-git clone https://github.com/Roarpeng/agent-os.git
-cd agent-os
-bash sync.sh --dry   # 预览将部署什么
-bash sync.sh         # 部署到 ~/.zcode/ 与 ~/.cursor/
+**方式 A · 一句话交给 Agent（推荐）**——在你的 Agent 工具里原样粘贴：
+
+```text
+安装 Agent OS 到这台机器：git clone https://github.com/Roarpeng/agent-os.git ~/agent-os，阅读 ~/agent-os/README.md 与 sync.sh 了解部署方式，先运行 bash ~/agent-os/sync.sh --dry 预览，确认无误后运行 bash ~/agent-os/sync.sh 把规则、命令、技能、子代理部署到本机检测到的所有 Agent 工具；若我的工具未被识别，按 README 的部署映射表手工部署；完成后报告部署清单、需要重启的工具和验证方法。
 ```
 
-重启 ZCode / Cursor 生效：输入 `/` 应看到 plan、research、debug、review、verify、html、inbox 命令。被覆盖的旧文件自动备份到 `~/.agent-os-backup/<时间戳>/`。
+**方式 B · 手动安装**：
 
-| 仓库 | ZCode | Cursor |
-|---|---|---|
-| `AGENTS.md` | `~/.zcode/AGENTS.md` | `~/.cursor/rules/agent-os.mdc`（脚本自动生成） |
-| `commands/*.md` | `~/.zcode/commands/` | `~/.cursor/commands/` |
-| `skills/*/` | `~/.zcode/skills/` | `~/.cursor/skills/` |
-| `agents/*.md` | `~/.zcode/agents/` | `~/.cursor/agents/` |
+```bash
+git clone https://github.com/Roarpeng/agent-os.git ~/agent-os
+cd ~/agent-os
+bash sync.sh --dry   # 预览将部署什么
+bash sync.sh         # 部署到本机已安装的 Agent 工具
+```
 
-换 Codex、Claude Code 等其他 Agent？核心方法论只维护一份，扩展 `sync.sh` 的映射即可，不用重写系统。
+辅助命令：`bash sync.sh --list` 查看支持的工具与部署路径；`bash sync.sh --target claude,codex` 只部署指定工具；`bash sync.sh --all` 部署到全部已知工具。默认只部署本机检测到已安装的工具。
+
+#### 部署映射
+
+| 工具 | 全局规则 | Commands | Skills | Subagents |
+|---|---|---|---|---|
+| ZCode | `~/.zcode/AGENTS.md` | `~/.zcode/commands/` | `~/.zcode/skills/` | `~/.zcode/agents/` |
+| Claude Code | `~/.claude/CLAUDE.md` | `~/.claude/commands/` | `~/.claude/skills/` | `~/.claude/agents/` |
+| Cursor | `~/.cursor/rules/agent-os.mdc`（脚本生成） | `~/.cursor/commands/` | `~/.cursor/skills/` | `~/.cursor/agents/` |
+| Codex | `~/.codex/AGENTS.md` | `~/.codex/prompts/`（自定义提示词） | — | — |
+| Gemini CLI | `~/.gemini/GEMINI.md` | —（其命令为 TOML 格式） | — | — |
+| opencode | `~/.config/opencode/AGENTS.md` | `~/.config/opencode/commands/` | `~/.config/opencode/skills/` | `~/.config/opencode/agents/` |
+
+- 被覆盖的旧文件自动备份到 `~/.agent-os-backup/<时间戳>/`；全局规则文件以本仓库为单一事实源。
+- 重启工具生效：输入 `/` 应看到 plan、research、debug、review、verify、html、inbox 命令。
+
+**工具不在表里？** 内容层是通用 Markdown，不绑定任何私有格式。把上面这张映射表发给你的 Agent，让它照做即可；也欢迎提 PR 在 `sync.sh` 的 `TOOL_TABLE` 加一行（一行即一个新工具）。
 
 ### 2. 启用每日灵感管道（可选但推荐）
 
@@ -86,7 +102,7 @@ Fork 或推到你自己的 GitHub 仓库后：
 
 ```bash
 git pull                                  # 早上拉取自动 digest
-# 在 ZCode / Cursor 中：
+# 在你的 Agent 工具中：
 /inbox                                    # 一分钟裁决候选洞察
 ```
 
@@ -107,7 +123,7 @@ agent-os/
 │   ├── blueprint.html # 原始设计蓝图
 │   ├── changelog.md   # 变更记录
 │   └── decisions/     # 架构决策记录（ADR）
-└── sync.sh            # 部署脚本
+└── sync.sh            # 多工具部署脚本
 ```
 
 ## Definition of Done
@@ -116,8 +132,9 @@ Agent 结束任何任务前的最小检查：理解目标 / 选对输出媒介 /
 
 ## 已知注意点
 
-- Windows 下 symlink 不可靠，所以用 sync 复制分发；Linux/macOS 的 bash 同样可跑。
-- ZCode 中命令名若与内置命令重名会被 `/` 菜单过滤（重命名文件即可）；若你的 ZCode 版本不识别 `~/.zcode/agents/`，在 Settings → Subagents 手动导入。
+- Windows 下 symlink 不可靠，所以用 sync 复制分发；Linux/macOS 的 bash（含 Git Bash）同样可跑。
+- 部分工具中命令名若与内置命令重名会被 `/` 菜单过滤（重命名文件即可）；个别版本不识别全局 agents 目录时，在设置里手动导入。
+- Gemini CLI 仅部署全局规则——其自定义命令为 TOML 格式，与通用 Markdown 命令不通用；Codex 无全局 skills/subagents 目录，命令进 `prompts/`。
 - 定时任务在仓库 **60 天无活动**后会被 GitHub 自动暂停（防止Actions被遗忘空跑），长期使用记得偶尔 push。
 
 ## License

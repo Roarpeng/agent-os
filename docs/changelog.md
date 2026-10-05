@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.4.0 · 2026-10-05
+
+适配任意 Agent 工具，去 ZCode × Cursor 特化：
+
+- `sync.sh` 重写为表驱动多工具部署：`TOOL_TABLE` 一行一个工具，默认自动检测本机已安装的工具，新增 `--target` / `--all` / `--list`；内置 ZCode、Claude Code、Cursor、Codex、Gemini CLI、opencode 六套映射（目录约定经各官方文档核对）。
+- README 安装改为双通道：**给 Agent 的一句话安装指令**（粘贴即装，对齐流行 skill / MCP 惯例）+ 人工手动安装命令；新增六工具部署映射表与"工具不在表里"指引。
+- 内容层（AGENTS.md / commands / skills / agents）本就是通用 Markdown，零改动即跨工具。
+- design.md §4 改为"多工具策略"；新增 [ADR-0004](decisions/0004-universal-tool-deploy.md)。
+
 ## v1.3.1 · 2026-10-02
 
 灵感源扩充 6 → 15（"让大佬的思想自动流进来"不限于 Karpathy）：

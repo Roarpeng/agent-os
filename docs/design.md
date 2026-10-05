@@ -45,13 +45,14 @@
 | reviewer | 找 Bug、遗漏、风险、回归 | 只读（可运行只读命令取证） |
 | architect | 需求、约束、架构、实施方案 | 只设计，不改代码 |
 
-> 权限约束写在提示词层而非 tools 字段：ZCode 与 Cursor 的工具名不通用，提示词层约束可跨工具工作。
+> 权限约束写在提示词层而非 tools 字段：各家 Agent 工具的工具名不通用，提示词层约束可跨工具工作。
 
-## 4. 双工具策略
+## 4. 多工具策略（任意 Agent 工具）
 
-- **ZCode**：Agent OS 主力执行。全局指令 `~/.zcode/AGENTS.md`。
-- **Cursor**：工程编码与协作。核心规则经 sync 脚本转为 `~/.cursor/rules/agent-os.mdc`（alwaysApply）。
-- **维护原则**：核心方法论只维护一份（本仓库）；工具特有配置才单独适配。换 Codex、Claude Code 等其他 Agent 时，只需扩展 sync 脚本的映射，不重写系统。
+- **内容层通用**：AGENTS.md / Commands / Skills / Subagents 全部是通用 Markdown，不依赖任何特制工具或私有格式，任何 Agent 工具都能直接消费。
+- **工具差异全部收敛在 `sync.sh` 的 `TOOL_TABLE` 映射表**（名称 / 工具目录 / 规则路径与形态 / commands / skills / agents），一行即一个工具；默认自动检测本机已安装的工具，`--target` / `--all` 显式控制。
+- **安装双通道**：人 = `git clone` + `bash sync.sh`；Agent = README 提供的一句话安装指令，Agent 读 README 与脚本自行执行（对齐流行 skill / MCP 的分发惯例）。
+- **维护原则**：核心方法论只维护一份（本仓库）；工具特有配置（如 Cursor `.mdc` frontmatter）由脚本在部署时生成。映射表未收录的工具，让 Agent 照 README 部署映射表手工部署，或提 PR 加一行。
 
 ## 5. 落地路线
 
