@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.4.1 · 2026-10-05
+
+`sync.sh` 覆盖规则文件时自动保留托管块：
+
+- 识别 `<!-- NAME:BEGIN managed block --> … <!-- NAME:END -->` 约定（GraphFlow 等第三方工具注入到 AGENTS.md / CLAUDE.md / GEMINI.md 的配置段），部署仓库版规则时原样拼回，不破坏目标机器已有配置；src 已含同名块时自动去重。
+- 幂等：重建结果与目标现文件字节一致时按"一致"跳过。
+
 ## v1.4.0 · 2026-10-05
 
 适配任意 Agent 工具，去 ZCode × Cursor 特化：

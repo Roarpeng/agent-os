@@ -66,11 +66,34 @@ deploy() {
   cp "$src" "$dst"
 }
 
+# managed_blocks <dst> <src> —— 提取 dst 中 src 尚未包含的托管块
+# 托管块 = <!-- NAME:BEGIN managed block --> … <!-- NAME:END --> 之间的整段（含标记行），
+# 是 GraphFlow 等工具注入到全局规则文件的约定；覆盖部署时原样保留，避免破坏第三方配置。
+managed_blocks() {
+  [ -f "$1" ] || return 0
+  awk -v srcfile="$2" '
+    BEGIN { while ((getline l < srcfile) > 0) srcbuf = srcbuf l "\n" }
+    /<!-- [A-Za-z0-9_-]+:BEGIN managed block/ { keep = index(srcbuf, $0) == 0 }
+    keep { print }
+    /<!-- [A-Za-z0-9_-]+:END/ { keep = 0 }
+  ' "$1"
+}
+
 deploy_tool() { # name home rules style cmds skills agents
   local name="$1" home="$2" rules="$3" style="$4" cmds="$5" skills="$6" agents="$7"
   echo "-- $name ($home) --"
   case "$style" in
-    plain) deploy "$ROOT/AGENTS.md" "$home/$rules" ;;
+    plain)
+      local src="$ROOT/AGENTS.md" dst="$home/$rules" tmp="" blocks
+      blocks="$(managed_blocks "$dst" "$src")"
+      if [ -n "$blocks" ]; then
+        tmp="$(mktemp)"
+        { cat "$src"; printf '\n'; printf '%s\n' "$blocks"; } > "$tmp"
+        src="$tmp"
+      fi
+      deploy "$src" "$dst"
+      [ -n "$tmp" ] && rm -f "$tmp"
+      ;;
     mdc)
       # 核心规则：AGENTS.md 正文 + Cursor .mdc frontmatter（始终生效）
       local mdc; mdc="$(mktemp)"
