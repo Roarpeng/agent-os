@@ -45,7 +45,11 @@
       "https://simonwillison.net/2026/Sep/20/voxium/",
       "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
       "https://simonwillison.net/2026/Oct/3/newsletter/",
-      "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
+      "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+      "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+      "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "https://simonwillison.net/2026/Oct/1/pwasm/",
+      "https://simonwillison.net/2026/Sep/28/llm-anthropic/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -192,7 +196,8 @@
       "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
       "https://www.latent.space/p/jev",
       "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
-      "https://www.latent.space/p/ainews-not-much-happened-today-cee"
+      "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "https://www.latent.space/p/ainews-reflection-beam-501b-a23b"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -320,7 +325,12 @@
       "gh-22714052012",
       "gh-16211926585",
       "gh-22860544743",
-      "gh-23008264014"
+      "gh-23008264014",
+      "gh-23132052673",
+      "gh-23131850869",
+      "gh-23102537408",
+      "gh-23100768976",
+      "gh-23085181697"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
