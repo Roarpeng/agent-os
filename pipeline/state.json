@@ -60,7 +60,10 @@
       "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
       "https://simonwillison.net/2026/Oct/6/hn-49982139/",
       "https://simonwillison.net/2026/Oct/6/datasette-atom/",
-      "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/"
+      "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "https://simonwillison.net/2026/Oct/7/ben-affleck/",
+      "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -139,7 +142,8 @@
       "hn-48752417",
       "hn-48717304",
       "hn-49655550",
-      "hn-49978680"
+      "hn-49978680",
+      "hn-49999147"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -211,7 +215,9 @@
       "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
       "https://www.latent.space/p/ainews-not-much-happened-today-cee",
       "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai"
+      "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "https://www.latent.space/p/stacklok"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -350,7 +356,11 @@
       "gh-23219686853",
       "gh-16591560035",
       "gh-16586203477",
-      "gh-16568678013"
+      "gh-16568678013",
+      "gh-23322007683",
+      "gh-23291043710",
+      "gh-23277025013",
+      "gh-23248482576"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
