@@ -66,7 +66,11 @@
       "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
       "https://simonwillison.net/2026/Oct/9/ttok/",
       "https://simonwillison.net/2026/Oct/8/ttok/",
-      "https://simonwillison.net/2026/Oct/8/carson-gross/"
+      "https://simonwillison.net/2026/Oct/8/carson-gross/",
+      "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -222,7 +226,9 @@
       "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
       "https://www.latent.space/p/stacklok",
       "https://www.latent.space/p/ainews-not-much-happened-today-60f",
-      "https://www.latent.space/p/periodic"
+      "https://www.latent.space/p/periodic",
+      "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "https://www.latent.space/p/biohub-deepmind"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -279,7 +285,8 @@
       "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
       "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
       "https://www.interconnects.ai/p/banning-open-source-ai-would-be-a",
-      "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken"
+      "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards"
     ],
     "rss:https://baoyu.io/feed.xml": [
       "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land",
@@ -366,7 +373,10 @@
       "gh-23291043710",
       "gh-23277025013",
       "gh-23248482576",
-      "gh-16783050954"
+      "gh-16783050954",
+      "gh-23509803944",
+      "gh-23485058115",
+      "gh-23476137953"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
