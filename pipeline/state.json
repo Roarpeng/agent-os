@@ -72,7 +72,10 @@
       "https://simonwillison.net/2026/Oct/9/matthew-green/",
       "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
       "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "https://simonwillison.net/2026/Oct/10/python-actions/"
+      "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "https://simonwillison.net/2026/Oct/12/datasette-ports/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -235,7 +238,8 @@
       "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
       "https://www.latent.space/p/biohub-deepmind",
       "https://www.latent.space/p/nyc2026",
-      "https://www.latent.space/p/standard-bots"
+      "https://www.latent.space/p/standard-bots",
+      "https://www.latent.space/p/claude-dynamic-workflows"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -386,7 +390,13 @@
       "gh-23476137953",
       "gh-23639932141",
       "gh-23577157531",
-      "gh-16980349347"
+      "gh-16980349347",
+      "gh-17058966040",
+      "gh-23823203529",
+      "gh-17054275110",
+      "gh-23796228973",
+      "gh-23794294028",
+      "gh-17022405348"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
