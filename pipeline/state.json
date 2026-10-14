@@ -75,7 +75,13 @@
       "https://simonwillison.net/2026/Oct/10/python-actions/",
       "https://simonwillison.net/2026/Oct/12/python-3-15/",
       "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "https://simonwillison.net/2026/Oct/12/datasette-ports/"
+      "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -239,7 +245,10 @@
       "https://www.latent.space/p/biohub-deepmind",
       "https://www.latent.space/p/nyc2026",
       "https://www.latent.space/p/standard-bots",
-      "https://www.latent.space/p/claude-dynamic-workflows"
+      "https://www.latent.space/p/claude-dynamic-workflows",
+      "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "https://www.latent.space/p/dyna",
+      "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -396,7 +405,11 @@
       "gh-17054275110",
       "gh-23796228973",
       "gh-23794294028",
-      "gh-17022405348"
+      "gh-17022405348",
+      "gh-23935908945",
+      "gh-23921832516",
+      "gh-17148577884",
+      "gh-23910900984"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
