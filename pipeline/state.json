@@ -81,7 +81,9 @@
       "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
       "https://simonwillison.net/2026/Oct/13/web-edit/",
       "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/"
+      "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
+      "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -248,7 +250,9 @@
       "https://www.latent.space/p/claude-dynamic-workflows",
       "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
       "https://www.latent.space/p/dyna",
-      "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder"
+      "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "https://www.latent.space/p/crossing-the-threshold",
+      "https://www.latent.space/p/lab-in-the-loop-at-compute-speed"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -409,7 +413,10 @@
       "gh-23935908945",
       "gh-23921832516",
       "gh-17148577884",
-      "gh-23910900984"
+      "gh-23910900984",
+      "gh-24053036565",
+      "gh-24008916834",
+      "gh-23968526557"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
