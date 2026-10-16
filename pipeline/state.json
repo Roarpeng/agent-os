@@ -83,7 +83,9 @@
       "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
       "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
       "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-      "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+      "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -166,7 +168,8 @@
       "hn-49999147",
       "hn-50047422",
       "hn-50047180",
-      "hn-50046016"
+      "hn-50046016",
+      "hn-50102315"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -252,7 +255,9 @@
       "https://www.latent.space/p/dyna",
       "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
       "https://www.latent.space/p/crossing-the-threshold",
-      "https://www.latent.space/p/lab-in-the-loop-at-compute-speed"
+      "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -416,7 +421,8 @@
       "gh-23910900984",
       "gh-24053036565",
       "gh-24008916834",
-      "gh-23968526557"
+      "gh-23968526557",
+      "gh-24059337651"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
