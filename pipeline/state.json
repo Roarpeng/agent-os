@@ -85,7 +85,9 @@
       "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
       "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
       "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-      "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+      "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "https://simonwillison.net/2026/Oct/16/code-review/",
+      "https://simonwillison.net/2026/Oct/15/latex/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -422,7 +424,8 @@
       "gh-24053036565",
       "gh-24008916834",
       "gh-23968526557",
-      "gh-24059337651"
+      "gh-24059337651",
+      "gh-24277141155"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
