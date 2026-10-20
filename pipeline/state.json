@@ -91,7 +91,8 @@
       "https://simonwillison.net/2026/Oct/17/document-currentscript/",
       "https://simonwillison.net/2026/Oct/17/web-edit/",
       "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "https://simonwillison.net/2026/Oct/18/llm-echo/"
+      "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -190,7 +191,8 @@
       "https://hamel.dev/blog/posts/audience/",
       "https://hamel.dev/blog/posts/llm-judge/",
       "https://hamel.dev/blog/posts/course/",
-      "https://hamel.dev/blog/posts/drift/"
+      "https://hamel.dev/blog/posts/drift/",
+      "https://hamel.dev/blog/posts/decision-model-evals/"
     ],
     "rss:https://eugeneyan.com/rss/": [
       "https://eugeneyan.com//writing/cybersecurity-evals/",
@@ -264,7 +266,8 @@
       "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
       "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
       "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
-      "https://www.latent.space/p/ainews-high-taste-testers-ep-1"
+      "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "https://www.latent.space/p/ainews-not-much-happened-today-f09"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -435,7 +438,8 @@
       "gh-17480007612",
       "gh-17558823023",
       "gh-17557826219",
-      "gh-24461867029"
+      "gh-24461867029",
+      "gh-24510642288"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
