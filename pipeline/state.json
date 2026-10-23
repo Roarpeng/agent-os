@@ -97,7 +97,10 @@
       "https://simonwillison.net/2026/Oct/20/battledrones/",
       "https://simonwillison.net/2026/Oct/21/php-security-release/",
       "https://simonwillison.net/2026/Oct/21/panache/",
-      "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/"
+      "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
+      "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -184,7 +187,8 @@
       "hn-50102315",
       "hn-50130686",
       "hn-50191508",
-      "hn-50180884"
+      "hn-50180884",
+      "hn-50192150"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -279,7 +283,10 @@
       "https://www.latent.space/p/tenex",
       "https://www.latent.space/p/sfcompute2",
       "https://www.latent.space/p/claude-mods",
-      "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source"
+      "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "https://www.latent.space/p/modal-d",
+      "https://www.latent.space/p/moshi",
+      "https://www.latent.space/p/ainews-openais-patch-the-planet-program"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -461,7 +468,9 @@
       "gh-17736966953",
       "gh-17724055342",
       "gh-24738343554",
-      "gh-24736688050"
+      "gh-24736688050",
+      "gh-24852431886",
+      "gh-17958138590"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
