@@ -103,7 +103,8 @@
       "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
       "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
       "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-      "https://simonwillison.net/2026/Oct/24/battledrones/"
+      "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "https://simonwillison.net/2026/Oct/25/seam-cutter/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -371,7 +372,8 @@
       "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
       "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
       "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
-      "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek"
+      "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber"
     ],
     "rss:https://baoyu.io/feed.xml": [
       "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land",
@@ -501,7 +503,10 @@
       "gh-24955745084",
       "gh-18134255912",
       "gh-25045168037",
-      "gh-25031972905"
+      "gh-25031972905",
+      "gh-25175692686",
+      "gh-25155323228",
+      "gh-25105526307"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
