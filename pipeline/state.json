@@ -107,7 +107,8 @@
       "https://simonwillison.net/2026/Oct/25/seam-cutter/",
       "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-      "https://simonwillison.net/2026/Oct/26/webframe-evaluation/"
+      "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+      "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -314,7 +315,11 @@
       "https://latent.space/p/ainews-meta-muse-wonder-and-wonder/",
       "https://latent.space/p/claude-dynamic-workflows/",
       "https://latent.space/p/nyc2026/",
-      "https://latent.space/p/ainews-kimi-31/"
+      "https://latent.space/p/ainews-kimi-31/",
+      "https://latent.space/p/opus55/",
+      "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "https://latent.space/p/offline-coding/",
+      "https://latent.space/p/ainews-anthropic-s1/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
