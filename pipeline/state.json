@@ -108,7 +108,11 @@
       "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "https://simonwillison.net/2026/Oct/26/jason-koebler/",
       "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
-      "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
+      "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -196,7 +200,8 @@
       "hn-50130686",
       "hn-50191508",
       "hn-50180884",
-      "hn-50192150"
+      "hn-50192150",
+      "hn-50275946"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -319,7 +324,10 @@
       "https://latent.space/p/opus55/",
       "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
       "https://latent.space/p/offline-coding/",
-      "https://latent.space/p/ainews-anthropic-s1/"
+      "https://latent.space/p/ainews-anthropic-s1/",
+      "https://latent.space/p/ainews-gemini-4-carbon/",
+      "https://latent.space/p/supabase/",
+      "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -381,7 +389,8 @@
       "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
       "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
       "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
-      "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber"
+      "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers"
     ],
     "rss:https://baoyu.io/feed.xml": [
       "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land",
