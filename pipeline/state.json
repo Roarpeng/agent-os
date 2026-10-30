@@ -112,7 +112,10 @@
       "https://simonwillison.net/2026/Oct/28/ted-sanders/",
       "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
       "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
-      "https://simonwillison.net/2026/Oct/28/terk-terkowitz/"
+      "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "https://simonwillison.net/2026/Oct/29/ben-hylak/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -157,7 +160,8 @@
       "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/",
       "https://lucumr.pocoo.org/2026/7/24/codeberg-divides/",
       "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
-      "https://lucumr.pocoo.org/2026/10/6/codemode/"
+      "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/"
     ],
     "hn:Karpathy": [
       "hn-49931968",
@@ -327,7 +331,8 @@
       "https://latent.space/p/ainews-anthropic-s1/",
       "https://latent.space/p/ainews-gemini-4-carbon/",
       "https://latent.space/p/supabase/",
-      "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/"
+      "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "https://latent.space/p/elorian/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
