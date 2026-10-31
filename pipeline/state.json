@@ -115,7 +115,8 @@
       "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
       "https://simonwillison.net/2026/Oct/29/api-credits/",
       "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
-      "https://simonwillison.net/2026/Oct/29/ben-hylak/"
+      "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "https://simonwillison.net/2026/Oct/30/nesformer/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -205,7 +206,8 @@
       "hn-50191508",
       "hn-50180884",
       "hn-50192150",
-      "hn-50275946"
+      "hn-50275946",
+      "hn-50307196"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -332,7 +334,9 @@
       "https://latent.space/p/ainews-gemini-4-carbon/",
       "https://latent.space/p/supabase/",
       "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
-      "https://latent.space/p/elorian/"
+      "https://latent.space/p/elorian/",
+      "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+      "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -395,7 +399,8 @@
       "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
       "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
-      "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers"
+      "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and"
     ],
     "rss:https://baoyu.io/feed.xml": [
       "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land",
