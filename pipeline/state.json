@@ -116,7 +116,9 @@
       "https://simonwillison.net/2026/Oct/29/api-credits/",
       "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
       "https://simonwillison.net/2026/Oct/29/ben-hylak/",
-      "https://simonwillison.net/2026/Oct/30/nesformer/"
+      "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "https://simonwillison.net/2026/Oct/31/datasette-llm/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -207,7 +209,9 @@
       "hn-50180884",
       "hn-50192150",
       "hn-50275946",
-      "hn-50307196"
+      "hn-50307196",
+      "hn-50319510",
+      "hn-50314620"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -336,7 +340,8 @@
       "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
       "https://latent.space/p/elorian/",
       "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
-      "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/"
+      "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+      "https://latent.space/p/arca/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -533,7 +538,8 @@
       "gh-25031972905",
       "gh-25175692686",
       "gh-25155323228",
-      "gh-25105526307"
+      "gh-25105526307",
+      "gh-18774996859"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
