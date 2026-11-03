@@ -120,7 +120,11 @@
       "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
       "https://simonwillison.net/2026/Oct/31/datasette-llm/",
       "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
-      "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+      "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "https://simonwillison.net/2026/Nov/2/llm/",
+      "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -217,7 +221,14 @@
       "hn-50333339",
       "hn-50326821",
       "hn-50324766",
-      "hn-50324087"
+      "hn-50324087",
+      "hn-50347574",
+      "hn-50341635",
+      "hn-50341053",
+      "hn-50339588",
+      "hn-50336750",
+      "hn-50335401",
+      "hn-50334295"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -347,7 +358,10 @@
       "https://latent.space/p/elorian/",
       "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
       "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
-      "https://latent.space/p/arca/"
+      "https://latent.space/p/arca/",
+      "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
+      "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
+      "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -551,7 +565,11 @@
       "gh-25848441997",
       "gh-25832949300",
       "gh-25816023822",
-      "gh-25812271425"
+      "gh-25812271425",
+      "gh-26008688932",
+      "gh-18951800282",
+      "gh-25988875494",
+      "gh-18944228249"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
