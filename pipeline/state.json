@@ -124,7 +124,8 @@
       "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
       "https://simonwillison.net/2026/Nov/3/october-newsletter/",
       "https://simonwillison.net/2026/Nov/2/llm/",
-      "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -228,7 +229,13 @@
       "hn-50339588",
       "hn-50336750",
       "hn-50335401",
-      "hn-50334295"
+      "hn-50334295",
+      "hn-50361842",
+      "hn-50357221",
+      "hn-50355931",
+      "hn-50353601",
+      "hn-50350996",
+      "hn-50350619"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -569,7 +576,9 @@
       "gh-26008688932",
       "gh-18951800282",
       "gh-25988875494",
-      "gh-18944228249"
+      "gh-18944228249",
+      "gh-19060014251",
+      "gh-19054503731"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
