@@ -125,7 +125,11 @@
       "https://simonwillison.net/2026/Nov/3/october-newsletter/",
       "https://simonwillison.net/2026/Nov/2/llm/",
       "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
-      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "https://simonwillison.net/2026/Nov/3/llm/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -235,7 +239,9 @@
       "hn-50355931",
       "hn-50353601",
       "hn-50350996",
-      "hn-50350619"
+      "hn-50350619",
+      "hn-50376244",
+      "hn-50369493"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -368,7 +374,9 @@
       "https://latent.space/p/arca/",
       "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of/",
       "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
-      "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/"
+      "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
+      "https://latent.space/p/ainews-it-s-swapping-season/",
+      "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -432,7 +440,8 @@
       "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
       "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
-      "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and"
+      "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "https://www.interconnects.ai/p/how-well-can-we-measure-open-model"
     ],
     "rss:https://baoyu.io/feed.xml": [
       "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land",
@@ -578,7 +587,8 @@
       "gh-25988875494",
       "gh-18944228249",
       "gh-19060014251",
-      "gh-19054503731"
+      "gh-19054503731",
+      "gh-19125656661"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
