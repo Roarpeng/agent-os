@@ -130,7 +130,8 @@
       "https://simonwillison.net/2026/Nov/4/datasette-apps/",
       "https://simonwillison.net/2026/Nov/3/datasette-agent/",
       "https://simonwillison.net/2026/Nov/3/llm/",
-      "https://simonwillison.net/2026/Nov/5/paul-ford/"
+      "https://simonwillison.net/2026/Nov/5/paul-ford/",
+      "https://simonwillison.net/2026/Nov/6/nilay-patel/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -247,7 +248,8 @@
       "hn-50385952",
       "hn-50385434",
       "hn-50384668",
-      "hn-50378105"
+      "hn-50378105",
+      "hn-50390066"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -382,7 +384,10 @@
       "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora/",
       "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora/",
       "https://latent.space/p/ainews-it-s-swapping-season/",
-      "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/"
+      "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+      "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
+      "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+      "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -513,7 +518,8 @@
       "https://mitchellh.com/writing/github-changesets",
       "https://mitchellh.com/writing/ghostty-devlog-004",
       "https://mitchellh.com/writing/ghostty-and-useful-zig-patterns",
-      "https://mitchellh.com/writing/program-status-osc7501"
+      "https://mitchellh.com/writing/program-status-osc7501",
+      "https://mitchellh.com/writing/libghostty-1-0"
     ],
     "github:simonw": [
       "gh-22764763327",
@@ -596,7 +602,17 @@
       "gh-19054503731",
       "gh-19125656661",
       "gh-26300425725",
-      "gh-26286807454"
+      "gh-26286807454",
+      "gh-19390505240",
+      "gh-19384327655",
+      "gh-19384170485",
+      "gh-19382674601",
+      "gh-19382534304",
+      "gh-26370621323",
+      "gh-26368029036",
+      "gh-19374436400",
+      "gh-19373437887",
+      "gh-26361226191"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
