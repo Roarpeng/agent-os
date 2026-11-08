@@ -131,7 +131,8 @@
       "https://simonwillison.net/2026/Nov/3/datasette-agent/",
       "https://simonwillison.net/2026/Nov/3/llm/",
       "https://simonwillison.net/2026/Nov/5/paul-ford/",
-      "https://simonwillison.net/2026/Nov/6/nilay-patel/"
+      "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "https://simonwillison.net/2026/Nov/7/link-rel-next/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -249,7 +250,8 @@
       "hn-50385434",
       "hn-50384668",
       "hn-50378105",
-      "hn-50390066"
+      "hn-50390066",
+      "hn-50406993"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -612,7 +614,8 @@
       "gh-26368029036",
       "gh-19374436400",
       "gh-19373437887",
-      "gh-26361226191"
+      "gh-26361226191",
+      "gh-19462302718"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
