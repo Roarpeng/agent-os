@@ -132,7 +132,12 @@
       "https://simonwillison.net/2026/Nov/3/llm/",
       "https://simonwillison.net/2026/Nov/5/paul-ford/",
       "https://simonwillison.net/2026/Nov/6/nilay-patel/",
-      "https://simonwillison.net/2026/Nov/7/link-rel-next/"
+      "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+      "https://simonwillison.net/2026/Nov/3/hn-50354278/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -251,7 +256,8 @@
       "hn-50384668",
       "hn-50378105",
       "hn-50390066",
-      "hn-50406993"
+      "hn-50406993",
+      "hn-50415745"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -389,7 +395,9 @@
       "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
       "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
       "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
-      "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/"
+      "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "https://latent.space/p/cs146s/",
+      "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -615,7 +623,10 @@
       "gh-19374436400",
       "gh-19373437887",
       "gh-26361226191",
-      "gh-19462302718"
+      "gh-19462302718",
+      "gh-26617924001",
+      "gh-26594445338",
+      "gh-19506378389"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
