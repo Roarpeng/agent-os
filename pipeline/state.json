@@ -142,7 +142,8 @@
       "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
       "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
       "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
+      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "https://simonwillison.net/2026/Nov/10/llm-gemini/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -264,7 +265,8 @@
       "hn-50390066",
       "hn-50406993",
       "hn-50415745",
-      "hn-50429960"
+      "hn-50429960",
+      "hn-50442257"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -406,7 +408,10 @@
       "https://latent.space/p/cs146s/",
       "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
       "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
-      "https://latent.space/p/handshake/"
+      "https://latent.space/p/handshake/",
+      "https://latent.space/p/codex-work/",
+      "https://latent.space/p/resend/",
+      "https://latent.space/p/naiveai/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -637,7 +642,10 @@
       "gh-26594445338",
       "gh-19506378389",
       "gh-19611938748",
-      "gh-19611446633"
+      "gh-19611446633",
+      "gh-19706831175",
+      "gh-19699422366",
+      "gh-26762526385"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
