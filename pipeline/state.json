@@ -143,7 +143,12 @@
       "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
       "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
       "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-      "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+      "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "https://simonwillison.net/2026/Nov/11/llm/",
+      "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -266,7 +271,8 @@
       "hn-50406993",
       "hn-50415745",
       "hn-50429960",
-      "hn-50442257"
+      "hn-50442257",
+      "hn-50459476"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -411,7 +417,10 @@
       "https://latent.space/p/handshake/",
       "https://latent.space/p/codex-work/",
       "https://latent.space/p/resend/",
-      "https://latent.space/p/naiveai/"
+      "https://latent.space/p/naiveai/",
+      "https://latent.space/p/ainews-d-day-decision-models-day/",
+      "https://latent.space/p/jev-revolution/",
+      "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -645,7 +654,9 @@
       "gh-19611446633",
       "gh-19706831175",
       "gh-19699422366",
-      "gh-26762526385"
+      "gh-26762526385",
+      "gh-26873516024",
+      "gh-19805287773"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
