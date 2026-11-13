@@ -148,7 +148,8 @@
       "https://simonwillison.net/2026/Nov/11/aws-emulator/",
       "https://simonwillison.net/2026/Nov/11/tools-tags/",
       "https://simonwillison.net/2026/Nov/11/llm/",
-      "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+      "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "https://simonwillison.net/2026/Nov/12/llm-gemini/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -272,7 +273,8 @@
       "hn-50415745",
       "hn-50429960",
       "hn-50442257",
-      "hn-50459476"
+      "hn-50459476",
+      "hn-50465341"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -420,7 +422,8 @@
       "https://latent.space/p/naiveai/",
       "https://latent.space/p/ainews-d-day-decision-models-day/",
       "https://latent.space/p/jev-revolution/",
-      "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/"
+      "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+      "https://latent.space/p/artcraft/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -656,7 +659,8 @@
       "gh-19699422366",
       "gh-26762526385",
       "gh-26873516024",
-      "gh-19805287773"
+      "gh-19805287773",
+      "gh-19954054833"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
