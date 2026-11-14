@@ -149,7 +149,9 @@
       "https://simonwillison.net/2026/Nov/11/tools-tags/",
       "https://simonwillison.net/2026/Nov/11/llm/",
       "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-      "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+      "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+      "https://simonwillison.net/2026/Nov/13/datasette-leaflet/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -322,7 +324,37 @@
       "https://eugeneyan.com//speaking/aie-2024/",
       "https://eugeneyan.com//speaking/netflix-prs/",
       "https://eugeneyan.com//writing/prompting/",
-      "https://eugeneyan.com//writing/llm-lessons/"
+      "https://eugeneyan.com//writing/llm-lessons/",
+      "https://eugeneyan.com/speaking/aie-2026",
+      "https://eugeneyan.com/writing/cybersecurity-evals",
+      "https://eugeneyan.com/writing/secure-source-code",
+      "https://eugeneyan.com/writing/working-with-ai",
+      "https://eugeneyan.com/writing/2025-review",
+      "https://eugeneyan.com/writing/product-evals",
+      "https://eugeneyan.com/writing/principal",
+      "https://eugeneyan.com/writing/semantic-ids",
+      "https://eugeneyan.com/writing/qa-evals",
+      "https://eugeneyan.com/speaking/aie-2025",
+      "https://eugeneyan.com/writing/leadership",
+      "https://eugeneyan.com/writing/news-agents",
+      "https://eugeneyan.com/writing/eval-process",
+      "https://eugeneyan.com/writing/writing-faq",
+      "https://eugeneyan.com/speaking/nvidia-gtc-2025",
+      "https://eugeneyan.com/writing/recsys-llm",
+      "https://eugeneyan.com/writing/aireadingclub",
+      "https://eugeneyan.com/writing/2024-review",
+      "https://eugeneyan.com/writing/paradox",
+      "https://eugeneyan.com/writing/paper-club",
+      "https://eugeneyan.com/writing/mac-setup",
+      "https://eugeneyan.com/writing/conf-lessons",
+      "https://eugeneyan.com/writing/aligneval",
+      "https://eugeneyan.com/speaking/hackathon-judge",
+      "https://eugeneyan.com/writing/web-frameworks",
+      "https://eugeneyan.com/writing/llm-evaluators",
+      "https://eugeneyan.com/writing/how-to-interview",
+      "https://eugeneyan.com/speaking/aie-2024",
+      "https://eugeneyan.com/speaking/netflix-prs",
+      "https://eugeneyan.com/writing/prompting"
     ],
     "rss:https://www.latent.space/feed": [
       "https://www.latent.space/p/airbnb",
@@ -423,7 +455,8 @@
       "https://latent.space/p/ainews-d-day-decision-models-day/",
       "https://latent.space/p/jev-revolution/",
       "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
-      "https://latent.space/p/artcraft/"
+      "https://latent.space/p/artcraft/",
+      "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
