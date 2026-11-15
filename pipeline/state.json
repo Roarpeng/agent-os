@@ -151,7 +151,9 @@
       "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
       "https://simonwillison.net/2026/Nov/12/llm-gemini/",
       "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
-      "https://simonwillison.net/2026/Nov/13/datasette-leaflet/"
+      "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+      "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "https://simonwillison.net/2026/Nov/14/datasette-vega/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -354,7 +356,8 @@
       "https://eugeneyan.com/writing/how-to-interview",
       "https://eugeneyan.com/speaking/aie-2024",
       "https://eugeneyan.com/speaking/netflix-prs",
-      "https://eugeneyan.com/writing/prompting"
+      "https://eugeneyan.com/writing/prompting",
+      "https://eugeneyan.com/writing/anti"
     ],
     "rss:https://www.latent.space/feed": [
       "https://www.latent.space/p/airbnb",
@@ -456,7 +459,8 @@
       "https://latent.space/p/jev-revolution/",
       "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
       "https://latent.space/p/artcraft/",
-      "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/"
+      "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -521,7 +525,8 @@
       "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
       "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
       "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
-      "https://www.interconnects.ai/p/how-well-can-we-measure-open-model"
+      "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "https://www.interconnects.ai/p/open-source-ai-without-jensen"
     ],
     "rss:https://baoyu.io/feed.xml": [
       "https://baoyu.io/blog/gpt-6-astra-peach-blossom-land",
@@ -693,7 +698,12 @@
       "gh-26762526385",
       "gh-26873516024",
       "gh-19805287773",
-      "gh-19954054833"
+      "gh-19954054833",
+      "gh-20159718214",
+      "gh-27204348170",
+      "gh-20157482627",
+      "gh-20157006772",
+      "gh-27197903825"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
