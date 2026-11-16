@@ -153,7 +153,12 @@
       "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
       "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
       "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-      "https://simonwillison.net/2026/Nov/14/datasette-vega/"
+      "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "https://simonwillison.net/2026/Nov/15/datasette/",
+      "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "https://simonwillison.net/2026/Nov/15/datasette-agent/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -483,7 +488,8 @@
       "https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches",
       "https://magazine.sebastianraschka.com/p/qwen3-from-scratch",
       "https://magazine.sebastianraschka.com/p/from-gpt-2-to-gpt-oss-analyzing-the",
-      "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+      "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
     ],
     "rss:https://huyenchip.com/feed.xml": [
       "https://huyenchip.com//2025/01/16/ai-engineering-pitfalls.html",
@@ -703,7 +709,12 @@
       "gh-27204348170",
       "gh-20157482627",
       "gh-20157006772",
-      "gh-27197903825"
+      "gh-27197903825",
+      "gh-27323273845",
+      "gh-20238597643",
+      "gh-27317537606",
+      "gh-27310994055",
+      "gh-27310750566"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
