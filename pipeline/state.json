@@ -160,7 +160,10 @@
       "https://simonwillison.net/2026/Nov/15/datasette-apps/",
       "https://simonwillison.net/2026/Nov/15/datasette-agent/",
       "https://simonwillison.net/2026/Nov/17/go-proverbs/",
-      "https://simonwillison.net/2026/Nov/16/llm/"
+      "https://simonwillison.net/2026/Nov/16/llm/",
+      "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "https://simonwillison.net/2026/Nov/17/datasette-lite/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -469,7 +472,9 @@
       "https://latent.space/p/artcraft/",
       "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
       "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
-      "https://latent.space/p/bfl/"
+      "https://latent.space/p/bfl/",
+      "https://latent.space/p/cloudflare/",
+      "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -719,7 +724,10 @@
       "gh-27317537606",
       "gh-27310994055",
       "gh-27310750566",
-      "gh-27419705177"
+      "gh-27419705177",
+      "gh-27517077846",
+      "gh-27463782662",
+      "gh-20429289049"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
