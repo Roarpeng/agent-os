@@ -167,7 +167,9 @@
       "https://simonwillison.net/2026/Nov/18/llm-gemini/",
       "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
       "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-      "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
+      "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "https://simonwillison.net/2026/Nov/19/postgresql-19/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -480,7 +482,9 @@
       "https://latent.space/p/cloudflare/",
       "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
       "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
-      "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/"
+      "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+      "https://latent.space/p/linear-scaling/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -736,7 +740,10 @@
       "gh-20429289049",
       "gh-20581789679",
       "gh-20542629864",
-      "gh-20542465783"
+      "gh-20542465783",
+      "gh-20717999037",
+      "gh-27653848068",
+      "gh-27645655016"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
