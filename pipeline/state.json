@@ -169,7 +169,9 @@
       "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
       "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
       "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
-      "https://simonwillison.net/2026/Nov/19/postgresql-19/"
+      "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -374,7 +376,8 @@
       "https://eugeneyan.com/speaking/aie-2024",
       "https://eugeneyan.com/speaking/netflix-prs",
       "https://eugeneyan.com/writing/prompting",
-      "https://eugeneyan.com/writing/anti"
+      "https://eugeneyan.com/writing/anti",
+      "https://eugeneyan.com/writing/public-evals"
     ],
     "rss:https://www.latent.space/feed": [
       "https://www.latent.space/p/airbnb",
@@ -484,7 +487,9 @@
       "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
       "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
       "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
-      "https://latent.space/p/linear-scaling/"
+      "https://latent.space/p/linear-scaling/",
+      "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "https://latent.space/p/formal-verification/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
