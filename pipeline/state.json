@@ -171,7 +171,9 @@
       "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
       "https://simonwillison.net/2026/Nov/19/postgresql-19/",
       "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
-      "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+      "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "https://simonwillison.net/2026/Nov/21/muru/",
+      "https://simonwillison.net/2026/Nov/20/llm-gemini/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -748,7 +750,10 @@
       "gh-20542465783",
       "gh-20717999037",
       "gh-27653848068",
-      "gh-27645655016"
+      "gh-27645655016",
+      "gh-27902625590",
+      "gh-27899625411",
+      "gh-27897698475"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
