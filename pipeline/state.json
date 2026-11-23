@@ -173,7 +173,8 @@
       "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
       "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
       "https://simonwillison.net/2026/Nov/21/muru/",
-      "https://simonwillison.net/2026/Nov/20/llm-gemini/"
+      "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+      "https://simonwillison.net/2026/Nov/22/select-styling/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -753,7 +754,11 @@
       "gh-27645655016",
       "gh-27902625590",
       "gh-27899625411",
-      "gh-27897698475"
+      "gh-27897698475",
+      "gh-20975092697",
+      "gh-20973165099",
+      "gh-20971797084",
+      "gh-28004445964"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
