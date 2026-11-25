@@ -179,7 +179,9 @@
       "https://simonwillison.net/2026/Nov/24/datasette-agent/",
       "https://simonwillison.net/2026/Nov/23/glm-54/",
       "https://simonwillison.net/2026/Nov/23/ladybird/",
-      "https://simonwillison.net/2026/Nov/23/datasette-charts/"
+      "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -226,7 +228,8 @@
       "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
       "https://lucumr.pocoo.org/2026/10/6/codemode/",
       "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/",
-      "https://lucumr.pocoo.org/2026/11/9/irontown/"
+      "https://lucumr.pocoo.org/2026/11/9/irontown/",
+      "https://lucumr.pocoo.org/2026/11/25/poisoning/"
     ],
     "hn:Karpathy": [
       "hn-49931968",
@@ -499,7 +502,8 @@
       "https://latent.space/p/linear-scaling/",
       "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
       "https://latent.space/p/formal-verification/",
-      "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/"
+      "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+      "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -771,7 +775,8 @@
       "gh-28106935740",
       "gh-21097512543",
       "gh-21090634538",
-      "gh-21088119517"
+      "gh-21088119517",
+      "gh-21158776832"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
