@@ -185,7 +185,9 @@
       "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
       "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
       "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-      "https://simonwillison.net/2026/Nov/24/datasette-charts-2/"
+      "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+      "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "https://simonwillison.net/2026/Nov/26/hn-50651685/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -315,7 +317,10 @@
       "hn-50517285",
       "hn-50616362",
       "hn-50652985",
-      "hn-50651191"
+      "hn-50651191",
+      "hn-50661971",
+      "hn-50659297",
+      "hn-50658997"
     ],
     "rss:https://hamel.dev/index.xml": [
       "https://hamel.dev/blog/posts/claude-auto-evals/",
@@ -512,7 +517,8 @@
       "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
       "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
       "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
-      "https://latent.space/p/why_linear_says_issue_tracking_is_dead_cristina_cordova_coo/"
+      "https://latent.space/p/why_linear_says_issue_tracking_is_dead_cristina_cordova_coo/",
+      "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -786,7 +792,12 @@
       "gh-21090634538",
       "gh-21088119517",
       "gh-21158776832",
-      "gh-21293734815"
+      "gh-21293734815",
+      "gh-28392520349",
+      "gh-28391419200",
+      "gh-28381916548",
+      "gh-21438734782",
+      "gh-28355032739"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
