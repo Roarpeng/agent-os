@@ -187,7 +187,9 @@
       "https://simonwillison.net/2026/Nov/25/datasette-charts/",
       "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
       "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
-      "https://simonwillison.net/2026/Nov/26/hn-50651685/"
+      "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "https://simonwillison.net/2026/Nov/27/datasette-mcp/"
     ],
     "rss:https://lilianweng.github.io/index.xml": [
       "https://lilianweng.github.io/posts/2026-07-04-harness/",
@@ -518,7 +520,9 @@
       "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
       "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
       "https://latent.space/p/why_linear_says_issue_tracking_is_dead_cristina_cordova_coo/",
-      "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/"
+      "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
+      "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/"
     ],
     "rss:https://magazine.sebastianraschka.com/feed": [
       "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
@@ -797,7 +801,14 @@
       "gh-28391419200",
       "gh-28381916548",
       "gh-21438734782",
-      "gh-28355032739"
+      "gh-28355032739",
+      "gh-21558369356",
+      "gh-21556672077",
+      "gh-21548992798",
+      "gh-28465463309",
+      "gh-21540542048",
+      "gh-28455434673",
+      "gh-28427283551"
     ]
   },
   "last_run": "2026-10-02T13:31:22"
